@@ -50,7 +50,7 @@ global.location = "Mexico City" //ur location
 //bot bombdy
 global.botname = "Sticker Factory" //ur bot name
 global.websitex = "https://www.instagram.com/sticker._.factory/" //ur website
-global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
+global.vidmenu = { url: 'https://youtu.be/10EX-_h4pYc' } //gif and video menu
 global.packname = "Sticker Factory"
 global.author = "Sticker Factory"
 global.themeemoji = "🐶"
@@ -58,9 +58,9 @@ global.reactmoji = "😘"
 global.ownertag = ['+12094433473'] //ur owner tag
 global.ownernummenu = ['+12094433473'] //ur owner number in menu and all
 global.watermark = "Sticker Factory" //ur watermark
-global.botscript = "https://www.youtube.com/watch?v=vXBO1zJbGJ4"
-global.linkz1 = "https://chat.whatsapp.com/Ivsw8fEw5lW0n0qKEDHfUX"
-global.linkz2 = "https://chat.whatsapp.com/Jub3moTE7jaBERo8DqWXC1"
+global.botscript = "https://youtu.be/10EX-_h4pYc"
+global.linkz1 = "https://chat.whatsapp.com/ENLguN9qXct7Fd0bljlrHv"
+global.linkz2 = "https://chat.whatsapp.com/ENLguN9qXct7Fd0bljlrHv"
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -92,21 +92,21 @@ global.ntilink = []
 global.lolhuman = "Sticker Factory"
 global.sessionName = "session"
 global.antitags = true
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['#','!','.','-','+','/']
 global.mess = {
-    success: 'Done✓',
-    admin: 'This feature is only for admins!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This feature is only for owner',
-    group: 'This feature is only for groups!',
-    private: 'This feature is only for private chats!',
-    bot: 'This feature is only for bot',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
-    error: 'Error!',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    success: 'Listo ✓',
+    admin: '¡Esta función es solo para administradores!',
+    botAdmin: '¡El bot debe ser administrador primero!',
+    owner: 'Esta función es solo para el propietario',
+    group: '¡Esta función es solo para grupos!',
+    private: '¡Esta función es solo para chats privados!',
+    bot: 'Esta función es solo para el bot',
+    wait: 'En Proceso...',
+    linkm: '¿Donde esta el link?',
+    error: '¡Error!',
+    ban: 'Has sido baneado por el Equipo de Soporte, si quieres evitar un baneo global, manda un correo a "soporte@stickerfactory.ml" y apela tu baneo.',
+    nsfw: 'La función nsfw no se ha activado, comuníquese con el administrador para activarla',
+    banChat: 'El bot fue baneado en este grupo, comuníquese con el propietario para desbanearlo.'
 }
 global.limitawal = {
     premium: "Infinity",
