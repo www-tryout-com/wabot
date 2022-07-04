@@ -51,14 +51,14 @@ console.log(color(figlet.textSync('Cheems Bot-MD', {
 	    width: 80,
 		whitespaceBreak: true
         }), 'yellow'))
-console.log(color('\n🐶 YT CHANNEL: UW TECH SHOW ','silver'))
-console.log(color('🐶 INSTAGRAM: udavin_wijesundara ','silver'))
-console.log(color('🐶 WA NUMBER: +94761192103 ','silver'))
+console.log(color('\n🐶 STICKER FACTORY ','silver'))
+console.log(color('🐶 INSTAGRAM: STICKER FACTORY ','silver'))
+console.log(color('🐶 WA NUMBER: +12094433473 ','silver'))
 console.log(color('  🦄UW TECH SHOW. 2022🦄','mediumseagreen'))
     console.log(color('🐶','red'), color('I Wrote This Script By Myself!', 'yellow'))
     console.log(color('🐶','red'), color('Source Code Version: 3.0', 'aqua'))
     console.log(color('🐶','red'), color('Bug? Error? Suggestion? Talk to developer:', 'aqua'))
-    console.log(color('🐶', 'cyan'), color('https://wa.me/94761192103'))
+    console.log(color('🐶', 'cyan'), color('https://wa.me/1209433473'))
     console.log(color('🐶', 'cyan'), color('Cheems Bot Is Online...', 'pink'))
     console.log(color('🐶', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
     console.log(color('🐶','red'), color('Thanks For Using Cheems Bot', 'white'))
@@ -66,7 +66,7 @@ console.log(color('  🦄UW TECH SHOW. 2022🦄','mediumseagreen'))
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Subscribe Xeon','Safari','1.0.0'],
+        browser: ['STICKER FACTORY','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -78,7 +78,7 @@ store.bind(XeonBotInc.ev)
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let pa7rick = await XeonBotInc.sendContact(callerId, global.owner)
-    XeonBotInc.sendMessage(callerId, { text: `Automatic Block System!\nDon't Call Bot!\nPlease Ask Or Contact The Owner To Unblock You!`}, { quoted : pa7rick })
+    XeonBotInc.sendMessage(callerId, { text: `¡Sistema de Bloqueo Automático!\n¡No llames al Bot!\n¡Pregunte o comuníquese con el propietario para desbloquearlo!\nEnviar un Mail a : soporte@stickerfactory.ml`}, { quoted : pa7rick })
     await sleep(8000)
     await XeonBotInc.updateBlockStatus(callerId, "block")
     }
@@ -105,19 +105,19 @@ XeonBotInc.ev.on('groups.update', async pea => {
        try {
        ppgc = await XeonBotInc.profilePictureUrl(pea[0].id, 'image')
        } catch {
-       ppgc = 'https://telegra.ph/file/3983c55ac7f3ebea225d3.jpg'
+       ppgc = 'https://i.postimg.cc/wMpGFLRN/stf.jpg'
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
-       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe group has been closed by admin, Now only admin can send messages !`, `${botname}`, wm_fatih, [])
+       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nEl grupo ha sido cerrado por el administrador. ¡Ahora solo el administrador puede enviar mensajes!`, `${botname}`, wm_fatih, [])
        } else if(pea[0].announce == false) {
-       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe group has been opened by admin, Now participants can send messages !`, `${botname}`, wm_fatih, [])
+       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nEl administrador ha abierto el grupo. ¡Ahora los participantes pueden enviar mensajes!`, `${botname}`, wm_fatih, [])
        } else if (pea[0].restrict == true) {
-       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup info has been restricted, Now only admin can edit group info !`, `${botname}`, wm_fatih, [])
+       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nLa información del grupo ha sido restringida, ¡ahora solo el administrador puede editar la información del grupo!`, `${botname}`, wm_fatih, [])
        } else if (pea[0].restrict == false) {
-       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup info has been opened, Now participants can edit group info !`, `${botname}`, wm_fatih, [])
+       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nSe ha abierto la información del grupo. ¡Ahora los participantes pueden editar la información del grupo!`, `${botname}`, wm_fatih, [])
        } else {
-       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject has been changed to *${pea[0].subject}*`, `${botname}`, wm_fatih, [])
+       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nEl Título del grupo se ha cambiado a *${pea[0].subject}*`, `${botname}`, wm_fatih, [])
      }
     })
 
@@ -153,25 +153,25 @@ XeonBotInc.ev.on('group-participants.update', async (anu) => {
                 if (anu.action == 'add') {
                 const buffer = await getBuffer(ppuser)
                 let xeonName = num
-                const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                const xtime = moment.tz('America/Mexico_City').format('HH:mm:ss')
+	            const xdate = moment.tz('America/Mexico_City').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                 xeonbody = `┌─❖
 │「 𝗛𝗶 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
+   │✑  Bienvenido a 
    │✑  ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+   │✑  Miembro : 
    │✑ ${xmembers}th
-   │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
+   │✑  Se unió : 
    │✑ ${xtime} ${xdate}
    └───────────────┈ ⳹`
    //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
+{buttonId: `wkwwk`, buttonText: {displayText: 'Bienvenido 👋🏻'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
@@ -186,7 +186,7 @@ buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `${ownername}`,
-body: `Don't forget to read group description`,
+body: `No olvides leer la descripción del grupo.`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: `${websitex}`,
@@ -196,26 +196,26 @@ mediaUrl: `${websitex}`
 XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                 } else if (anu.action == 'remove') {
                 	const buffer = await getBuffer(ppuser)
-                    const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                    const xeontime = moment.tz('America/Mexico_City').format('HH:mm:ss')
+	                const xeondate = moment.tz('America/Mexico_City').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                     xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
+│「 ADIOS 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗟𝗲𝗳𝘁 
+   │✑  Se Salió 
    │✑ ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+   │✑  Miembro : 
    │✑ ${xeonmembers}th
-   │✑  𝗧𝗶𝗺𝗲 : 
+   │✑  Hora : 
    │✑  ${xeontime} ${xeondate}
    └───────────────┈ ⳹`
       //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
+{buttonId: `wkwkwk`, buttonText: {displayText: 'Adiós 👋🏻'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
@@ -230,7 +230,7 @@ buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `${ownername}`,
-body: `Bye! my friend, take care.`,
+body: `¡Adiós!, cuídate.`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: `${websitex}`,
