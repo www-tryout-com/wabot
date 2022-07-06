@@ -1752,7 +1752,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Aquí tienes, disfrutalo. 🥰"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Aquí tienes, disfrutalo.🥰"}, {quoted:m})
 }
    break
   case 'whitebear':{
