@@ -41,7 +41,7 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['+12094433473'] //ur owner number
+global.owner = ['+1 (209) 443-3473'] //ur owner number
 global.ownername = "Sticker Factory"
 global.ytname = "Sticker Factory" //ur yt chanel name
 global.socialm = "Insta: Sticker Factory" //ur github or insta name
@@ -53,10 +53,10 @@ global.websitex = "https://www.instagram.com/sticker._.factory/" //ur website
 global.vidmenu = { url: 'https://youtu.be/10EX-_h4pYc' } //gif and video menu
 global.packname = "Sticker Factory"
 global.author = "Sticker Factory"
-global.themeemoji = "🐶"
-global.reactmoji = "😘"
-global.ownertag = ['+12094433473'] //ur owner tag
-global.ownernummenu = ['+12094433473'] //ur owner number in menu and all
+global.themeemoji = "💎"
+global.reactmoji = "💓"
+global.ownertag = ['+1 (209) 443-3473'] //ur owner tag
+global.ownernummenu = ['+1 (209) 443-3473'] //ur owner number in menu and all
 global.watermark = "Sticker Factory" //ur watermark
 global.botscript = "https://youtu.be/10EX-_h4pYc"
 global.linkz1 = "https://chat.whatsapp.com/ENLguN9qXct7Fd0bljlrHv"
