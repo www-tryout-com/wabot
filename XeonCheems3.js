@@ -9397,7 +9397,7 @@ case 'menu': //allmenu original
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'All Menu')
-await XeonBotInc.send5ButImg(from, `
+await XeonBotInc.send(from, `
 Bienvenido al Menú de Comandos de *Sticker Factory*
 Tenemos a tu disposición más de 100 comandos, si tienes algún inconveniente puedes contactarnos a través de los correos oficiales de *Sticker Factory*:
 ► support@stickerfactory.ml
