@@ -55,12 +55,12 @@ global.packname = "Sticker Factory"
 global.author = "Sticker Factory"
 global.themeemoji = "💎"
 global.reactmoji = "💓"
-global.ownertag = ['+1 (209) 443-3473'] //ur owner tag
-global.ownernummenu = ['+1 (209) 443-3473'] //ur owner number in menu and all
+global.ownertag = ['12094433473'] //ur owner tag
+global.ownernummenu = ['12094433473'] //ur owner number in menu and all
 global.watermark = "Sticker Factory" //ur watermark
 global.botscript = "https://youtu.be/10EX-_h4pYc"
-global.linkz1 = "https://chat.whatsapp.com/ENLguN9qXct7Fd0bljlrHv"
-global.linkz2 = "https://chat.whatsapp.com/ENLguN9qXct7Fd0bljlrHv"
+global.linkz1 = "https://www.instagram.com/sticker._.factory/"
+global.linkz2 = "https://www.instagram.com/sticker._.factory/"
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
