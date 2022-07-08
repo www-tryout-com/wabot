@@ -1624,7 +1624,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
             { quickReplyButton: { displayText: `List Menu 🗒️`, id: 'command'} },
             { quickReplyButton: { displayText: `Owner 👤`, id: 'owner'} }
         	]
-        	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
+        	XeonBotInc.sendMessage(m.chat, { caption: menulist, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                         }
                      }
             break
@@ -1752,7 +1752,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Aquí tienes, disfrutalo.🥰"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Aquí tienes, disfrutalo. 🥰"}, {quoted:m})
 }
    break
   case 'whitebear':{
@@ -9397,26 +9397,7 @@ case 'allmenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'All Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」	
-╠ ${prefix}self
-╠ ${prefix}public
-╠ ${prefix}antitag
-╠ ${prefix}rentbot [add/del]
-╠ ${prefix}rentlist
-╠ ${prefix}ban [add/del]
-╠ ${prefix}banchat [on/off]
-╠ ${prefix}join [link]
-╠ ${prefix}leavegc
-╠ ${prefix}setbio
-╠ ${prefix}block [user]
-╠ ${prefix}unblock [user]
-╠ ${prefix}bcgroup [text]
-╠ ${prefix}bcall [text]
-╠ ${prefix}setppbot [image]
-╠ ${prefix}setexif
-╠ ${prefix}block [tag/number]
-╠ ${prefix}unblock [tag/number]
-╠ ${prefix}coowner [add/del]
+await XeonBotInc.send5ButImg(from, `
 ╠═══════✪「 GROUP 」	        
 ╠${prefix}grousetting
 ╠${prefix}grouplink
