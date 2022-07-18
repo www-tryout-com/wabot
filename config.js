@@ -50,7 +50,7 @@ global.location = "Mexico City" //ur location
 //bot bombdy
 global.botname = "Sticker Factory" //ur bot name
 global.websitex = "https://www.instagram.com/sticker._.factory/" //ur website
-global.vidmenu = { url: 'https://youtu.be/10EX-_h4pYc' } //gif and video menu
+global.vidmenu = { url: 'http://stickerfactory.ml/' } //gif and video menu
 global.packname = "Sticker Factory"
 global.author = "Sticker Factory"
 global.themeemoji = "💎"
@@ -58,7 +58,7 @@ global.reactmoji = "💓"
 global.ownertag = ['12094433473'] //ur owner tag
 global.ownernummenu = ['12094433473'] //ur owner number in menu and all
 global.watermark = "Sticker Factory" //ur watermark
-global.botscript = "https://youtu.be/10EX-_h4pYc"
+global.botscript = "http://stickerfactory.ml/"
 global.linkz1 = "https://www.instagram.com/sticker._.factory/"
 global.linkz2 = "https://www.instagram.com/sticker._.factory/"
 
