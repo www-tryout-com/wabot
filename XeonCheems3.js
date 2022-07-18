@@ -1588,7 +1588,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Bad Bunny-YT🐰',
+                                    displayText: 'Web Site 🌐',
                                     url: `${botscript}`
                                 }
                             }, {
@@ -1619,7 +1619,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
         	{ urlButton: { displayText: `Instagram ❤️`, url : `${websitex}` } },
-            { urlButton: { displayText: `Bad Bunny-YT🐰`, url: `${botscript}` } },
+            { urlButton: { displayText: `Web Site 🌐`, url: `${botscript}` } },
             { quickReplyButton: { displayText: `All Menu 🌐`, id: 'allmenu'} },
             { quickReplyButton: { displayText: `List Menu 🗒️`, id: 'command'} },
             { quickReplyButton: { displayText: `Owner 👤`, id: 'owner'} }
@@ -1635,7 +1635,7 @@ if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 let buttonmenu = [
         	{ urlButton: { displayText: `Instagram ❤️`, url : `${websitex}` } },
-            { urlButton: { displayText: `Bad Bunny-YT🐰`, url: `${botscript}` } },
+            { urlButton: { displayText: `Web Site 🌐`, url: `${botscript}` } },
             { quickReplyButton: { displayText: `All Menu 🌐`, id: 'allmenu'} },
             { quickReplyButton: { displayText: `List Menu 🗒️`, id: 'command'} },
             { quickReplyButton: { displayText: `Owner 👤`, id: 'owner'} }
@@ -9396,15 +9396,15 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 case 'menu': //allmenu original
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
-var unicorn = await getBuffer(picak+'Menu Sticker Factory')
-await XeonBotInc.send5ButImg(from, `
+var unicorn = await getBuffer(picak+'All Menu')
+await XeonBotInc.send(from, `
 Bienvenido al Menú de Comandos de *Sticker Factory*
 Tenemos a tu disposición más de 100 comandos, si tienes algún inconveniente puedes contactarnos a través de los correos oficiales de *Sticker Factory*:
 ► support@stickerfactory.ml
 ► contacto@stickerfactory.ml
 ► soporte@stickerfactory.ml
 O puedes contactarnos por Instagram: https://www.instagram.com/sticker._.factory/
-Gracias por usar *Sticker Factory*.
+Gracias por usar *Sticker Factory*
 ╠═══════✪「 GROUP 」	        
 ╠${prefix}grousetting
 ╠${prefix}grouplink
@@ -9842,7 +9842,7 @@ Gracias por usar *Sticker Factory*.
 ╠ ${prefix}donate
 ╠ ${prefix}request
 ╠ ${prefix}report [bug]
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Instagram 📍","url": `${websitex}`}},{"urlButton": {"displayText": "Bad Bunny-YT","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
+╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Instagram 📍","url": `${websitex}`}},{"urlButton": {"displayText": "Web Site 🌐","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'ownermenu':
 	   if (isBan) return reply(mess.ban)
