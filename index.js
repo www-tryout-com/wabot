@@ -78,7 +78,7 @@ store.bind(XeonBotInc.ev)
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let pa7rick = await XeonBotInc.sendContact(callerId, global.owner)
-    XeonBotInc.sendMessage(callerId, { text: `¡Sistema de Bloqueo Automático!\n¡No llames al Bot!\n¡Pregunte o comuníquese con el propietario para desbloquearlo!\nEnviar un Mail a : soporte@stickerfactory.ml`}, { quoted : pa7rick })
+    XeonBotInc.sendMessage(callerId, { text: `¡Sistema de Bloqueo Automático!\n¡No llamar al Bot!\nComunícate con el Equipo de Soporte para apelar tu baneo.\nApela tu baneo en www.stickerfactory.ml/soporte`}, { quoted : pa7rick })
     await sleep(8000)
     await XeonBotInc.updateBlockStatus(callerId, "block")
     }
