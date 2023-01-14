@@ -3344,6 +3344,13 @@ await XeonBotInc.sendMessage(from, {text:"reply #s to this image to make sticker
 })
 }
 break
+case 'Hola': {
+	   if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+await XeonBotInc.sendMessage(from, {text:"Hola, Bienvenido a *Sticker Factory* en estos momentos nos encontramos en *FASE BETA PRUEBA 2023* es posible que haya fallas por el momento el sistema se encuentre intermitente."}, {quoted:mese})
+}
+
+break
 case 'suitpvp': case 'suit': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
